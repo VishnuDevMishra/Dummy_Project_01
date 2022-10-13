@@ -34,7 +34,7 @@ export const GuestDetails = (props: IGuestDetailsProps) => {
       />
       <span>
         <IconButton sx={{ mx: 0.5 }} onClick={deleteItem}>
-          <DeleteIcon />
+          <DeleteIcon/>
         </IconButton>
         <IconButton sx={{ mx: 0.5 }}>
           <EditIcon onClick={editTextHandler}  color={editFlag ? 'primary': 'disabled'}/>
