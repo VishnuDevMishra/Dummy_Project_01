@@ -16,7 +16,6 @@ export const GuestDetails = (props: IGuestDetailsProps) => {
     setEditFlag(!editFlag);
   };
   
-
   const deleteItem = () => {
     props.deteletGuestDetail(guestName);
   }
