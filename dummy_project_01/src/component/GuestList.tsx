@@ -24,7 +24,7 @@ export const GuestList = () => {
   };
 
   const deteletGuestDetail = (guest: string) => {
-    setGuestList((prevData)=>prevData.filter((item)=>item!==guest));
+    setGuestList((prevData)=>prevData.filter((item)=>item.trim()!==guest.trim()));
   };
 
   return (
